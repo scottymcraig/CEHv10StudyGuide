@@ -147,3 +147,99 @@ Confidentiality != authentication - MAC address spoofing is an authentication at
 
 ### <u>Security Policies</u>
 
+- **Access Control** - what resources are protected and who can access them
+- **Information Security** - what can systems be used for
+- **Information Protection** - defines data sensitivity levels
+- **Password** - all things about passwords (how long, characters required, etc.)
+- **E-Mail** - proper and allowable use of email systems
+- **Information Audit** - defines the framework used for auditing
+
+### <u>Policy Categorizations</u>
+
+- **Promiscuous** - wide open
+- **Permissive** - blocks only known dangerous things
+- **Prudent** - blocks most and only allows things for business purposes
+- **Paranoid** - locks everything down
+
+**Standards** - mandatory rules to achieve consistency
+
+**Baselines** - provide the minimum security necessary
+
+**Guidelines** - flexible or recommended actions
+
+**Procedures** - step by step instructions
+
+**Script Kiddie** - uneducated in security methods, but uses tools that are freely available to perform malicious activities
+
+**Phreaker** - manipulates telephone systems
+
+### <u>The Hats</u>
+
+- **White Hat** - ethical hackers
+- **Black Hat** - hackers that seek to perform malicious activities
+- **Gray Hat** - hackers that perform good or bad activities but do not have the permission of the organization they are hacking against
+
+**Hacktivist** - someone who hacks for a cause
+
+**Suicide Hackers** - do not case about any impunity to themselves; hack to get the job done
+
+**Cyberterrorist** - motivated by religious or political beliefs to create fear or disruption
+
+**State-Sponsored Hacker** - hacker that is hired by a government
+
+### <u>Attack Types</u>
+
+- **Operating System** (OS) - attacks targeting OS flaws or security issues inside such as guest accounts or default passwords
+- **Application Level** - attacks on programming code and software logic
+- **Shrink-Wrap Code** - attack takes advantage of built-in code or scripts
+- **Misconfiguration** - attack takes advantage of systems that are misconfigured due to improper configuration or default configuration
+
+**Infowar** - the use of offensive and defensive techniques to create an advantage
+
+### <u>Hacking Phases</u>
+
+1. **Reconnaissance**  - gathering evidence about targets
+2. **Scanning & Enumeration** - obtaining more in-depth information about targets
+3. **Gaining Access** - attacks are leveled in order to gain access to a system
+4. **Maintaining Access** - items put in place to ensure future access
+5. **Covering Tracks** - steps taken to conceal success and intrusion
+
+### <u>Types of Reconnaissance</u>
+
+- **Passive** - gathering information about the target without their knowledge
+- **Active** - uses tools and techniques that may or may not be discovered
+
+### <u>Security Incident and Event Management (SIEM)</u>
+
+- Functions related to a security operations center (SOC)
+  - Identifying
+  - Monitoring
+  - Recording
+  - Auditing
+  - Analyzing
+
+**Ethical hacker** - employs tools that hackers use with a customer's permission; always obtains an agreement from the client with specific objectives <u>before</u> any testing is done
+
+**Cracker** - uses tools for personal gain or destructive purposes
+
+### <u>Penetration Test</u>
+
+- Clearly defined, full scale test of security controls
+- Phases
+  - **Preparation** - contracts and team determined
+  - **Assessment** - all hacking phases (reconnaissance, scanning, attacks, etc.)
+  - **Post-Assessment** - reports & conclusions
+- Types
+  - **Black Box** - done without any knowledge of the system or network
+  - **White Box** - complete knowledge of the system
+  - **Gray Box** - has some knowledge of the system and/or network
+- Laws regarding
+  - **HIPAA** - requirements set for the healthcare industry
+  - **PCI-DSS** - requirements set for anyone handling debit or credit cards
+  - **SOX** - requirements set for publicly traded companies
+
+### <u>Law Categories</u>
+
+- **Criminal** - laws that protect public safety and usually have jail time attached
+- **Civil** - private rights and remedies
+- **Common** - laws that are based on societal customs
