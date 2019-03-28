@@ -14,6 +14,4 @@ Created based off information found in [CEH Certified Ethical Hacker All-in-One 
 
 [5 - Attacking a System](5 - Attacking a System.md)
 
-[5 - Attacking a System](5 - Attacking a System.md)
-
 [6 - Web-Based Hacking - Servers and Applications](6 - Web-Based Hacking - Servers and Applications.md)
