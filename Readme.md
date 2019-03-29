@@ -21,3 +21,5 @@ Created based off information found in [CEH Certified Ethical Hacker All-in-One 
 [8 - Mobile Communications and IoT](8 - Mobile Communications and IoT.md)
 
 [9 - Security in Cloud Computing](9 - Security in Cloud Computing.md)
+
+[10 - Trojans and Other Attacks](10 - Trojans and Other Attacks.md)
