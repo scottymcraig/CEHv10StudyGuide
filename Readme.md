@@ -25,3 +25,5 @@ Created based off information found in [CEH Certified Ethical Hacker All-in-One 
 [10 - Trojans and Other Attacks](10 - Trojans and Other Attacks.md)
 
 [11 - Cryptography 101](11 - Cryptography 101.md)
+
+[12 - Low Tech - Social Engineering and Physical Security](12 - Low Tech - Social Engineering and Physical Security.md)

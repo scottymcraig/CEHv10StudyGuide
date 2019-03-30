@@ -103,3 +103,93 @@
 ### <u>PKI System</u>
 
 - **Public Key Infrastructure** (PKI) - structure designed to verify and authenticate the identity of individuals
+- **Registration Authority** - verifies user identity
+- **Certificate Authority** - third party to the organization; creates and issues digital certificates
+- **Certificate Revocation List** (CRL) - used to track which certificates have problems and which have been revoked
+- **Validation Authority** - used to validate certificates via Online Certificate Status Protocol (OCSP)
+- **Trust Model** - how entities within an enterprise deal with keys, signatures and certificates
+- **Cross-Certification** - allows a CA to trust another CS in a completely different PKI; allows both CAs to validate certificates from either side
+- **Single-authority system** - CA at the top
+- **Hierarchial trust system** - CA at the top (root CA); makes use of one or more RAs (subordinate CAs) underneath it to issue and manage certificates
+
+### <u>Digital Certificates</u>
+
+- **Certificate** - electronic file that is used to verify a user's identity; provides nonrepudiation
+- **X.509** - standard used for digital certificates
+- **Contents of a Digital Certificate**
+  - **Version** - identifies certificate format
+  - **Serial Number** - used to uniquely identify certificate
+  - **Subject** - who or what is being identified
+  - **Algorithm ID** (Signature Algorithm) - shows the algorithm that was used to create the certificate
+  - **Isuer** - shows the entity that verifies authenticity
+  - **Valid From and Valid To** - dates certificate is good for
+  - **Key Usage** - what purpose the certificate serves
+  - **Subject's Public Key** - copy of the subject's public key
+  - **Optional Fields** - Issuer Unique Identifier, Subject Alternative Name, and Extensions
+- Some root CAs are automatically added to OSes that they already trust; normally are reputable companies
+- **Self-Signed Certificates** - certificates that are not signed by a CA; generally not used for public; used for development purposes
+  - Signed by the same entity it certifies
+
+### <u>Digital Signatures</u>
+
+- When signing a message, you sign it with your **private** key and the recipient decrypts the has with their **public** key
+- **Digital Signature Algorithm** (DSA) - used in generation and verification of digital signatures per FIPS 186-2
+
+### <u>Full Disk Encryption</u>
+
+- **Data at Rest** (DAR) - data that is in a stored state and not currently accessible
+  - Usually protected by **full disk encryption** (FDE) with pre-boot authentication
+  - Example of FDE is Microsoft BitLocker and McAfee Endpoint Encryption
+  - FDE also gives protection against boot-n-root
+
+### <u>Encrypted Communication</u>
+
+- **Often-Used Encrypted Communication Methods**
+  - **Secure Shell** (SSH) - secured version of telnet; uses port 22; relies on public key cryptography; SSH2 is successor and includes SFTP
+  - **Secure Sockets Layer** (SSL) - encrypts data at transport layer and above; uses RSA encryption and digital certificates; has a six-step process; largely has been replaced by TLS
+  - **Transport Layer Security** (TLS) - uses RSA 1024 and 2048 bits; successor to SSL; allows both client and server to authenticate to each other; TLS Record Protocol provides secured communication channel
+  - **Internet Protocol Security** (IPSEC) - network layer tunnelling protocol; used in tunnel and transport modes; ESP encrypts each packet
+  - **PGP** - Pretty Good Privacy; used for signing, compress and encryption of emails, files and directories; known as hybrid cryptosystem - features conventional and public key cryptography
+  - **S/MIME** - standard for public key encryption and signing of MIME data; only difference between this and PGP is PGP can encrypt files and drives unles S/MIME
+- **Heartbleed** - attack on OpenSSL heartbeat which verifies data was received correctly
+  - Vulnerability is that a single byte of data gets 64kb from the server
+  - This data is random; could include usernames, passwords, private keys, cookies; very easy to pull off
+  - nmap -d --script ssl-heartbleed --script-args vulns.showall -sV [host]
+  - Vulnerable versions include Open SSL 1.0.1 and 1.0.1f
+  - CVE-2014-0160
+- **FREAK** (Factoring Attack on RSA-EXPORT Keys) - man-in-the-middle attack that forces a downgrade of RSA key to a weaker length
+- **POODLE** (Paddling Oracle On Downgraded Legacy Encryption) - downgrade attack that used the vulnerability that TLS downgrades to SSL if a connection cannot be made
+  - SSl 3 uses RC4, which is easy to crack
+  - CVE-2014-3566
+  - Also called PoodleBleed
+- **DROWN** (Decrypting RSA with Obsolete and Weakened eNcyption) - affects SSL and TLS services
+  - Allows attackers to break the encryption and steal sensitive data
+  - Uses flaws in SSL v2
+  - Not only web servers; can be IMAP and POP servers as well
+
+### <u>Cryptography Attacks</u>
+
+- **Known plain-text attack** - has both plain text and cipher-text; plain-text scanned for repeatable sequences which is compared to cipher text
+- **Chosen plain-text attack** - attacker encrypts multiple plain-text copies in order to gain the key
+- **Adaptive chosen plain-text attack** - attacker makes a series of interactive queries choosing subsequent plaintexts based on the information from the previous encryptions; idea is to glean more and more information about the full target cipher text and key
+- **Cipher-text-only attack** - gains copies of several encrypted messages with the same algorithm; statistical analysis is then used to reveal eventually repeating code
+- **Replay attack**
+  - Usually performed within context of MITM attack
+  - Hacker repeats a portion of cryptographic exchange in hopes of fooling the system to setup a communications channel
+  - Doesn't know the actual data - just has to get timing right
+- **Chosen Cipher Attack**
+  - Chooses a particular cipher-text message
+  - Attempts to discern the key through comparative analysis
+  - RSA is particularly vulnerable to this
+- **Side-Channel Attack**
+  - Monitors environmental factors such as power consumtion, timing and delay
+- **Tools**
+  - Carnivore and Magic Lantern - used by law enforcement for cracking codes
+  - L0phtcrack - used mainly against Windows SAM files
+  - John the Ripper - UNIX/Linux tool for the same purpose
+  - PGPcrack - designed to go after PGP-encrypted systems
+  - CrypTool
+  - Cryptobench
+  - Jipher
+- Keys should still change on a regular basis even though they may be "unhackable"
+- Per U.S. government, an algorithm using at least a 256-bit key cannot be cracked
