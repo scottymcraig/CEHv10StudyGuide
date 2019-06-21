@@ -83,7 +83,7 @@
     | NS    | Nameserver         | Lists the nameservers for a namespace          |
     | MX    | Mail Exchange      | Lists email servers                            |
     | CNAME | Canonical Name     | Maps a name to an A reccord                    |
-    | A     | Address            | Maps an IP address to a hostname               |
+    | A     | Address            | Maps an hostname to an IP address              |
 
 - **DNS Poisoning** - changes cache on a machine to redirect requests to a malicious server
 
