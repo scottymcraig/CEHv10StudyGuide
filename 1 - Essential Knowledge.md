@@ -243,3 +243,17 @@ Confidentiality != authentication - MAC address spoofing is an authentication at
 - **Criminal** - laws that protect public safety and usually have jail time attached
 - **Civil** - private rights and remedies
 - **Common** - laws that are based on societal customs
+
+
+### <u>Law and Standards</u>
+
+- **HIPAA** - "Health Insurance Portability and Accountability Act" a law that set's privacy standards to pro
+tect patient medical records and health information shared between doctors, hospitals and insurance providers
+- **OSSTM** - "Open Source Security Testing Methodology Manual" 
+  - **Legislative** - Goverment regulations
+  - **Contractual** - Industry / group requirement
+  - **Standars based** - Practice the use as a member of a given group/organization
+
+- **PCI-DSS**  - "Payment Card Industry Data Security Standard" Standard for organizations handling Credit Cards, ATM cards and other POS cards
+- **COBIT** - "Control Object for Information and Related Technology" IT Governance framework and toolset , created by ISACA and ITGI
+
