@@ -233,10 +233,6 @@ Confidentiality != authentication - MAC address spoofing is an authentication at
   - **Black Box** - done without any knowledge of the system or network
   - **White Box** - complete knowledge of the system
   - **Gray Box** - has some knowledge of the system and/or network
-- Laws regarding
-  - **HIPAA** - requirements set for the healthcare industry
-  - **PCI-DSS** - requirements set for anyone handling debit or credit cards
-  - **SOX** - requirements set for publicly traded companies
 
 ### <u>Law Categories</u>
 
@@ -245,15 +241,61 @@ Confidentiality != authentication - MAC address spoofing is an authentication at
 - **Common** - laws that are based on societal customs
 
 
-### <u>Law and Standards</u>
+### <u>Laws and Standards</u>
+
+- **OSSTM Compliance** - "Open Source Security Testing Methodology Manual" maintained by ISECOM , defines three types of compliance
+  - **Legislative** - Deals with goverment regulations (Such as SOX and HIPAA)
+  - **Contractual** - Deals with industry / group requirement (Such as PCI DSS)
+  - **Standars based** - Deals with practices that must be followed by members of a given group/organization (Such as ITIL ,ISO and OSSTMM itself)
+  
+- **OSSTM Controls**
+  - **OSSTM Class A - Interactive Controls**
+    - *Authentication* -  Provides for identification and authorization based on credentials 
+    - *Indemnification* - Provided contractual protection against loss or damages
+    - *Subjugation* - Ensures that interactions occur according to processes defined by the asset owner
+    - *Continuity* -  Maintains interactivity with assets if corruption of failure ccours
+    - *Resilience* - Protects assets from corruption and failure
+   
+  
+  
+  - **OSSTM Class B  - Process Controls**
+      - *Non-repudiation* - Prevents participants from denying its actions
+      - *Confidentiality* - Ensures that only participants know of an asset
+      - *Privacy* - Ensures that only participants have access to the asset
+      - *Integrity* - Ensures that only participants know when assets and processes change
+      - *Alarm*  - Notifies participants when interactions occur
+      
+- **ISO 27001** - Security standard based on the British BS7799 standard, focuses on secuirty governance
+
+- **NIST-800-53** -  Catalogs security and privacy controls for federal information systems, created to help implementation of FISMA
+
+- **ISO 27002 AND 17799** - Based on BS799 but focuses on security objectives and provides security controls based on industry best pratice
+
+- **FISMA** - "Federal Information Security Modernization Ac Of 2002" A law updated in 2004 to codify the authority of the Department of Homeland Security with regard to implementation of information security policies 
+  
+- **FITARA** - "Federal Information Technology Acquisition Reform Act" A 2013 bill that was intended to change the framework that determines how the US GOV purchases technology 
 
 - **HIPAA** - "Health Insurance Portability and Accountability Act" a law that set's privacy standards to pro
 tect patient medical records and health information shared between doctors, hospitals and insurance providers
-- **OSSTM** - "Open Source Security Testing Methodology Manual" 
-  - **Legislative** - Goverment regulations
-  - **Contractual** - Industry / group requirement
-  - **Standars based** - Practice the use as a member of a given group/organization
 
 - **PCI-DSS**  - "Payment Card Industry Data Security Standard" Standard for organizations handling Credit Cards, ATM cards and other POS cards
+
 - **COBIT** - "Control Object for Information and Related Technology" IT Governance framework and toolset , created by ISACA and ITGI
 
+- **SOX** - "Sarbanes-Oxley Act" Law that requires publicly traded companies to submit to independent audits and to properly disclose finical information
+
+- **GLBA** - "U.S Gramm-Leach-Bliley Act" Law that protects the confidentiality and integrity of personal information that is collected by financial institutions.
+
+- **CSIRT** - "Computer Security Incident Response Team" CSIRT provided a single point of contact when reporting computer security incidents
+
+- **ITIL** - "Information Technology Infrastructure Library" - An operational framework developed in the '80s that standardizes IT management procedures 
+
+### <u>Controls</u>
+
+- **Directive** - Also known as procedural controls because they deal with company procedures such as security policies, operations plans, and guidelines. 
+- **Deterrent** - Controls that are used to dissuade potential attackers, such as signs that warn possible attackers about the alarm system and monitoring in place.
+- **Preventive**  - Controls used to stop potential attacks by preventing users from performing specific actions, such as encryption and authentication
+- **Compensating** - Controls used to supplement directive controls, such as administrator reviewing logs files for violations of company policy
+- **Detective** -  Controls used to monitor and alert on malicious or unauthorized activity , such as IDS's and CCTV feeds monitored in real life
+- **Corrective** - Controls used to repair damage caused by malicious events. Such as AntiVirus software and IPS (IPS being both a detective and corrective control) 
+- **Recovery**
