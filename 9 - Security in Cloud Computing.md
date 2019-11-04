@@ -12,7 +12,7 @@
     - Hardware and software hosted by provider
     - Provides ability to develop without having to worry about hardware or software
   - **Software as a Service** (SaaS)
-    - Provider supples on-demand applications to subscribers
+    - Provider supplies on-demand applications to subscribers
     - Offloads the need for patch management, compatability and version control
 - **Deployment Models**
   - **Public Cloud** - services provided over a network that is open for public to use
