@@ -32,7 +32,7 @@ SYN -> SYN-ACK -> ACK
 ### <u>Network Security Zones</u>
 
 - **Internet** - uncontrollable
-- **Internet** DMZ - controlled buffer network
+- **Internet DMZ** - controlled buffer network
 - **Production Network Zone** - very restricted; controls direct access from uncontrolled zones; has no users
 - **Intranet Zone** - controlled; has little to no heavy restrictions
 - **Management Network Zone** - might find VLANs and IPSEC; highly secured; strict policies
