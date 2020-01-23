@@ -18,7 +18,7 @@
 ### <u>Human-Based Attacks</u>
 
 - **Dumpster Diving** - looking for sensitive information in the trash
-  - Sredded papers can sometimes indicate sensitive info
+  - Shredded papers can sometimes indicate sensitive info
 - **Impersonation** - pretending to be someone you're not
   - Can be anything from a help desk person up to an authoritative figure (FBI agent)
   - Posing as a tech support professional can really quickly gain trust with a person
