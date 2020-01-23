@@ -38,7 +38,7 @@
   - Doesn't effectively encrypt anything
   - Uses RC4 for encryption
   - Original intent was to give wireless the same level of protection of an Ethernet hub
-  - **Initialization Vector** (IV) - used to calculate a 32 bit integrity check value (ICV)
+  - **Initialization Vector** (IV) - used to calculate a 32-bit integrity check value (ICV)
   	- IVs are generally small and are frequently reused
   	- Sent in clear text as a part of the header
   	- This combined with RC4 makes it easy to decrypt the WEP key
@@ -85,7 +85,7 @@
 - **WiFi Adapter**
   - AirPcap is mentioned for Windows, but isn't made anymore
   - **pcap** - driver library for Windows
-  - **libpcap** - drivery library for Linux
+  - **libpcap** - driver library for Linux
 
 ### <u>Wireless Attacks</u>
 
@@ -96,7 +96,7 @@
 - **Ad Hoc Connection Attack** - connecting directly to another phone via ad-hoc network
   - Not very successful as the other user has to accept connection
 - **DoS Attack** - either sends de-auth packets to the AP or jam the wireless signal
-  - With a de-auth, you can have the users conect to your AP instead if it has the same name
+  - With a de-auth, you can have the users connect to your AP instead if it has the same name
   - Jammers are very dangerous as they are illegal
 - **MAC Filter** - only allows certain MAC addresses on a network
   - Easily broken because you can sniff out MAC addresses already connected and spoof it
