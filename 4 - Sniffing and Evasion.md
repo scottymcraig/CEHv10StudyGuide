@@ -6,7 +6,7 @@
  - **MAC**  (Media Access Control) - physical or burned-in address - assigned to NIC for communications at the Data Link layer
     - 48 bits long
     - Displayed as 12 hex characters separated by colons
-    - First half of address is the **organizationally unique identifier** - identifies manufacurer
+    - First half of address is the **organizationally unique identifier** - identifies manufacturer
     - Second half ensures no two cards on a subnet will have the same address
  - NICs normally only process signals meant for it
  - **Promiscuous mode** - NIC must be in this setting to look at all frames passing on the wire
@@ -92,7 +92,7 @@
 - **Switch port stealing** - tries to update information regarding a specific port in a race condition
 - MAC Flooding will often destroy the switch before you get anything useful, doesn't last long and it will get you noticed.  Also, most modern switches protect against this.
 
-### <u>ARP Poisioning</u>
+### <u>ARP Poisoning</u>
 
 - Also called ARP spoofing or gratuitous ARP
 - This can trigger alerts because of the constant need to keep updating the ARP cache of machines
@@ -130,7 +130,7 @@
 - Port security can slow this down, but doesn't always stop it
 - MAC Spoofing makes the switch send  all packets to your address instead of the intended one until the CAM table is updated with the real address again
 - **IRDP Spoofing** - hacker sends ICMP Router Discovery Protocol messages advertising a malicious gateway
-- **DNS Poisioning** - changes where machines get their DNS info from, allowing attacker to redirect to malicious websites
+- **DNS Poisoning** - changes where machines get their DNS info from, allowing attacker to redirect to malicious websites
 
 ### <u>Sniffing Tools</u>
 
