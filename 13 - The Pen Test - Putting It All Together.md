@@ -6,14 +6,14 @@
 - **Penetration Test** - looks for vulnerabilities and actively seeks to exploit them
 - Need to make sure you have a great contract in place to protect you from liability
 - **Types of Pen Tests**
-  - **External assessment** - analyzes publicly available information; conducts network scanning, enumeration and testing from the network perimiter
+  - **External assessment** - analyzes publicly available information; conducts network scanning, enumeration and testing from the network perimeter
   - **Internal Assessment** - performed from within the organization, from various network access points
 - **Red Team** - pen test team that is doing the attacking
 - **Blue Team** - pen test team that is doing the defending
 - **Purple Team** - pen test team that is doing both attacking and defending
 - **Automated Testing Tools**
-  - **Codenomicon** - utilizes fuzz testing that learns the ested system automatically; allows for pen testers to enter new domains such as VoIP assessment, etc.
-  - **Core Impact Pro** - best known, all-inclusive automated testing framework; tests everything from web applications and individual systems to network devices and wireles
+  - **Codenomicon** - utilizes fuzz testing that learns the tested system automatically; allows for pen testers to enter new domains such as VoIP assessment, etc.
+  - **Core Impact Pro** - best known, all-inclusive automated testing framework; tests everything from web applications and individual systems to network devices and wireless
   - **Metasploit** - framework for developing and executing code against a remote target machine
   - **CANVAS** - hundreds of exploits, automated exploitation system and extensive exploit development framework
 - **Phases of Pen Test**
