@@ -13,7 +13,7 @@
   - **M3 - Insecure Communication** - poor handshaking, incorrect SSL, clear-text communication
   - **M4 - Insecure Authentication** - authenticating end user or bad session management
   - **M5 - Insufficient Cryptography** - code that applies cryptography to an asset, but is insufficient (does NOT include SSL/TLS)
-  - **M6 - Insecure Authorization** - failures in authroization (access rights)
+  - **M6 - Insecure Authorization** - failures in authorization (access rights)
   - **M7 - Client Code Quality** - catchall for code-level implementation problems
   - **M8 - Code Tampering** - binary patching, resource modification, dynamic memory modification
   - **M9 - Reverse Engineering** - reversing core binaries to find problems and exploits
@@ -40,14 +40,14 @@
     - **Techniques**
       - **Untethered** - kernel remains patched after reboot, with or without a system connection
       - **Semi-Tethered** - reboot no longer retains patch; must use installed jailbreak software to re-jailbreak
-      - **Tethered** - reboot removes all jailbreaking patches; phone may geet in boot loop requiring USB to repair
+      - **Tethered** - reboot removes all jailbreaking patches; phone may get in boot loop requiring USB to repair
     - **Types**
       - **Userland exploit** - found in the system itself; gains root access; does not provide admin; can be patched by Apple
       - **iBoot exploit** - found in bootloader called iBoot; uses vulnerability to turn codesign off; semi-tethered; can be patched
       - **BootROM exploit** - allows access to file system, iBoot and custom boot logos; found in device's first bootloader; cannot be patched
 - **App Store attacks** - since some App stores are not vetted, malicious apps can be placed there
 - **Phishing attacks** - mobile phones have more data to be stolen and are just as vulnerable as desktops
-- **Android Device Administration API** - alows for security-aware apps that may help
+- **Android Device Administration API** - allows for security-aware apps that may help
 - **Bring Your Own Device** (BYOD) - dangerous for organizations because not all phones can be locked down by default
 - **Mobile Device Management** - like group policy on Windows; helps enforce security and deploy apps from enterprise
   - MDM solutions include XenMobile, IBM, MaaS360, AirWatch and MobiControl
@@ -101,7 +101,7 @@
   - The cloud
 - **Operating Systems**
   - **RIOT OS** - embedded systems, actuator boards, sensors; is energy efficient
-  - **ARM mbed OS** - mostly used on wearables and other low-powered devices
+  - **ARM Mbed OS** - mostly used on wearables and other low-powered devices
   - **RealSense OS X** - Intel's depth sensing version; mostly found in cameras and other sensors
   - **Nucleus RTOS** - used in aerospace, medical and industrial applications
   - **Brillo** - Android-based OS; generally found in thermostats
@@ -126,7 +126,7 @@
 
 - **I1 - Insecure Web Interface** - problems such as account enumeration, weak credentials, and no account lockout
 - **I2 - Insufficient Authentication/Authorization** - assumes interfaces will only be exposed on internal networks and thus is a flaw
-- **I3 - Insecure Network Services** - may be succeptible to buffer overflow or DoS attacks
+- **I3 - Insecure Network Services** - may be susceptible to buffer overflow or DoS attacks
 - **I4 - Lack of Transport Encryption/Integrity Verification** - data transported without encryption
 - **I5 - Privacy Concerns** - due to collection of personal data
 - **I6 - Insecure Cloud Interface** - easy-to-guess credentials make enumeration easy
