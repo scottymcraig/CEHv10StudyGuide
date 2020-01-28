@@ -253,7 +253,7 @@ Confidentiality != authentication - MAC address spoofing is an authentication at
     - *Authentication* -  Provides for identification and authorization based on credentials 
     - *Indemnification* - Provided contractual protection against loss or damages
     - *Subjugation* - Ensures that interactions occur according to processes defined by the asset owner
-    - *Continuity* -  Maintains interactivity with assets if corruption of failure ccours
+    - *Continuity* -  Maintains interactivity with assets if corruption of failure occurs
     - *Resilience* - Protects assets from corruption and failure
    
   
@@ -279,9 +279,9 @@ Confidentiality != authentication - MAC address spoofing is an authentication at
 
 - **PCI-DSS**  - "Payment Card Industry Data Security Standard" Standard for organizations handling Credit Cards, ATM cards and other POS cards
 
-- **COBIT** - "Control Object for Information and Related Technology" IT Governance framework and toolset , created by ISACA and ITGI
+- **COBIT** - "Control Object for Information and Related Technology" IT Governance framework and toolset, created by ISACA and ITGI
 
-- **SOX** - "Sarbanes-Oxley Act" Law that requires publicly traded companies to submit to independent audits and to properly disclose finical information
+- **SOX** - "Sarbanes-Oxley Act" Law that requires publicly traded companies to submit to independent audits and to properly disclose financial information
 
 - **GLBA** - "U.S Gramm-Leach-Bliley Act" Law that protects the confidentiality and integrity of personal information that is collected by financial institutions.
 
