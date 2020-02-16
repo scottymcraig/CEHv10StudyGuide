@@ -172,7 +172,7 @@
   - Crack the password of an admin - primary aim
   - Take advantage of an OS vulnerability
     - **DLL Hijacking** - replacing a DLL in the application directory with your own version which gives you the access you need
-  - Use a toll that will provide you the access such as Metasploit
+  - Use a tool that will provide you the access such as Metasploit
   - Social engineering a user to run an application
 - ECC refers executing applications as "owning" a system
 - **Executing applications** - starting things such as keyloggers, spyware, back doors and crackers
