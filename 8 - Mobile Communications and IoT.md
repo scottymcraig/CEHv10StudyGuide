@@ -42,9 +42,9 @@
       - **Semi-Tethered** - reboot no longer retains patch; must use installed jailbreak software to re-jailbreak
       - **Tethered** - reboot removes all jailbreaking patches; phone may get in boot loop requiring USB to repair
     - **Types**
-      - **Userland exploit** - found in the system itself; gains root access; does not provide admin; can be patched by Apple
-      - **iBoot exploit** - found in bootloader called iBoot; uses vulnerability to turn codesign off; semi-tethered; can be patched
-      - **BootROM exploit** - allows access to file system, iBoot and custom boot logos; found in device's first bootloader; cannot be patched
+      - **Userland exploit** - found in the system itself; gains root access; does not provide admin; these exploits can not be tethered but they can be patched by Apple
+      - **iBoot exploit** - found in bootloader called iBoot; uses vulnerability to turn codesign off; semi-tethered; can be patched by Apple
+      - **BootROM exploit** - allows access to file system, iBoot and custom boot logos; found in device's first bootloader; these types of exploits can be untethered and cannot be patched by Apple
 - **App Store attacks** - since some App stores are not vetted, malicious apps can be placed there
 - **Phishing attacks** - mobile phones have more data to be stolen and are just as vulnerable as desktops
 - **Android Device Administration API** - allows for security-aware apps that may help
