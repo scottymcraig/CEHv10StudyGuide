@@ -135,7 +135,7 @@
 - **I9 - Insecure Software/Firmware** - lack of a device to be updated or devices that do not check for updates
 - **I10 - Poor Physical Security** - because of the nature of devices, these can easily be stolen
 
-- **Sybil Attack** - uses multiple forged identifies to create the illusion of traffic
+- **Sybil Attack** - uses multiple forged identities to create the illusion of traffic
 - **HVAC Attacks** - attacks on HVAC systems
 - **Rolling Code** - the ability to jam a key fob's communications, steal the code and then create a subsequent code
 - **BlueBorne Attack** - attacks against Bluetooth devices
