@@ -132,7 +132,7 @@
 
 ### <u>Digital Signatures</u>
 
-- When signing a message, you sign it with your **private** key and the recipient decrypts the has with their **public** key
+- When signing a message, you sign it with your **private** key and the recipient decrypts the hash with your **public** key
 - **Digital Signature Algorithm** (DSA) - used in generation and verification of digital signatures per FIPS 186-2
 
 ### <u>Full Disk Encryption</u>
