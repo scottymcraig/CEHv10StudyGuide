@@ -44,7 +44,7 @@
   - **IDEA** (International Data Encryption Algorithm) - block cipher; 128 bit key; originally used in PGP 2.0
   - **Twofish** - block cipher; up to 256 bit key
   - **Blowfish** - fast block cipher; replaced by AES; 64 bit block size; 32 to 448 bit key; considered public domain
-  - **RC** (Rivest Cipher) - RC2 to RC6; block cipher; comparable key length up to 2040 bits; RC6 (latest version) uses 128 bit blocks and 4 bit working registers; RC5 uses variable block sizes and 2 bit working registers
+  - **RC** (Rivest Cipher) - RC2 to RC6; block cipher; comparable key length up to 2040 bits; RC6 (latest version) uses 128 bit blocks and 4 bit working registers; RC5 uses variable block sizes and 2 bit working registers. RC4 is a stream cipher
 
 ### <u>Asymmetric Encryption</u>
 
@@ -132,7 +132,7 @@
 
 ### <u>Digital Signatures</u>
 
-- When signing a message, you sign it with your **private** key and the recipient decrypts the has with their **public** key
+- When signing a message, you sign it with your **private** key and the recipient decrypts the hash with your **public** key
 - **Digital Signature Algorithm** (DSA) - used in generation and verification of digital signatures per FIPS 186-2
 
 ### <u>Full Disk Encryption</u>
