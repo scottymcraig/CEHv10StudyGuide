@@ -169,15 +169,13 @@ Confidentiality != authentication - MAC address spoofing is an authentication at
 
 **Procedures** - step by step instructions
 
-**Script Kiddie** - uneducated in security methods, but uses tools that are freely available to perform malicious activities
-
-**Phreaker** - manipulates telephone systems
-
 ### <u>The Hats</u>
 
 - **White Hat** - ethical hackers
 - **Black Hat** - hackers that seek to perform malicious activities
 - **Gray Hat** - hackers that perform good or bad activities but do not have the permission of the organization they are hacking against
+
+**Script Kiddie** - uneducated in security methods, but uses tools that are freely available to perform malicious activities
 
 **Hacktivist** - someone who hacks for a cause
 
@@ -186,6 +184,8 @@ Confidentiality != authentication - MAC address spoofing is an authentication at
 **Cyberterrorist** - motivated by religious or political beliefs to create fear or disruption
 
 **State-Sponsored Hacker** - hacker that is hired by a government
+
+**Phreaker** - manipulates telephone systems
 
 ### <u>Attack Types</u>
 
