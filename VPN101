@@ -1,0 +1,70 @@
+Establish logical tunnel on top of Internet
+
+IPSec ESP in Tunnel Mode
+  - Original packet , including IPHeader is all encapsulated and encrypted 
+
+ESP supports Encryption and Hashing
+AH supports only Hashing
+
+
+Benefits of VPN (Provides CIA)
+  - Tunnel provides Encryption i.e. Confidentiality
+  - Data Integrity through "Hashing"
+  - Suthentication - ID verification.. talking tothe intended party only
+
+VPN Types
+  - Tunnel mode (site to site tunnel) e.g. HQ Office to Branch Office
+    - Firewalls Acting as VPN GW between two sites
+    - VPN GW Encrypting and encapsualting the data on behalf of other devices in the network 
+  - Transport Mode
+    - Not encapsualting data on behalf of others
+    - Just talking b/w Firewalls of HQ and Branch Office
+    - Just exchanging secret info.. like routing update
+  - Remote Access VPN
+    - Telecommuter to Corporate HQ
+    - Telecommuter given Virtual address
+    - Security Association b/w browser and VPN GW(a firewall or a router or a VPN server)
+    - Exclude VPN traffic from NAT because remote worker is assinged an IP as if the traffic coming from within HQ
+    - No changing of source or destination address
+
+VPN Technologies
+  - IPSec
+  - SSL/TLS
+    
+IPSec
+  - IKE - (Internet Key exchange defines Key exchange in IPSec)
+  - IPSec Tunnel contains
+    - IKE Phase 1 Tunnel - Security Association Negotiation contains
+    - A. Negotiation
+        - H.A.G.L.E
+        - Hashing
+        - Authneticate
+        - Group (DH - for secret keys generation)
+        - Lifetime
+        - Encryption (3DES, AES)
+    - B.
+      - DH - Secret Keys using DH
+    - C.
+      - Authenticate
+    - IKE phase 1 tunnel is only b/w personal communication b/w Firewalls VPN gateways only and is not being used for sending the device information
+    - Actual PC traffic does not go in IKE phase 1 tunnel
+    
+    IKE Phase 2
+      - Again Negotiation happens for HAGLE.
+      - This tunnel used for Encapsuating and encrypting the PC data
+    
+    - IPSec uses following to establish SA
+      - IKE
+      - ISAKMP
+      
+    - Remote Worker uses SSL/TLS in  browser
+    - Client/server authentication
+    - Server certificate verification
+    
+  - Uses IKE-Scan tool 
+    - Fingerprinting the VPN firewalls
+    
+    
+    
+    - 
+    
