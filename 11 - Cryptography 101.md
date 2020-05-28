@@ -71,7 +71,7 @@
   - **RIPEMD-#** - works through 80 stages, executing 5 blocks 16 times each; uses modulo 32 addition
 - **Collision** - occurs when two or more files create the same output
   - Can happen and can be used an attack; rare, though
-- **DHUK Attack** (Don't Use Hard-Coded Keys) - allows attackers to access keys in certain VPN implementations; affects devices using ANSI X9.31 with a hard-coded seed key
+- **DUHK Attack** (Don't Use Hard-Coded Keys) - allows attackers to access keys in certain VPN implementations; affects devices using ANSI X9.31 with a hard-coded seed key
 - **Rainbow Tables** - contain precomputed hashes to try and find out passwords
 - **Salt** - used with a hash to obscure the hash; collection of random bits
 - **Things to Remember**
@@ -84,7 +84,7 @@
 
 ### <u>Steganography</u>
 
-- **Steganography** - practice of concealing a message inside another medium so that only the sender and recipient know of it's existence
+- **Steganography** - practice of concealing a message inside another medium so that only the sender and recipient know of its existence
 - **Ways to Identify**
   - Text - character positions are key - blank spaces, text patterns
   - Image - file larger in size; some may have color palette faults

@@ -96,10 +96,10 @@
 
 - **Gaining Access** - uses information gathered to exploit the system
 - **Escalating Privileges** - granting the account you've hacked admin or pivoting to an admin account
-- **Executing Applications** - putting back doors into the  system so that you can maintain access
+- **Executing Applications** - putting back doors into the system so that you can maintain access
 - **Hiding Files** - making sure the files you leave behind are not discoverable
 - **Covering Tracks** - cleaning up everything else (log files, etc.)
-  - **clearev** - meterpreter shell command to clear log  files
+  - **clearev** - meterpreter shell command to clear log files
   - Clear MRU list in Windows
   - In Linux, append a dot in front of a file to hide it
 

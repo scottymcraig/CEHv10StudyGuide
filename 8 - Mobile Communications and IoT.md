@@ -83,7 +83,7 @@
   - **Bluesniffing** - attempt to discover Bluetooth devices
   - **Bluebugging** - remotely using a device's features
   - **Bluesnarfing** - theft of data from a device
-  - **Blueprinting** - colecting device information over Bluetooth
+  - **Blueprinting** - collecting device information over Bluetooth
 - **Bluetooth Attack Tools**
   - **BlueScanner** - finds devices around you
   - **BT Browser** - another tool for finding and enumerating devices

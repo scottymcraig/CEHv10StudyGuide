@@ -128,7 +128,7 @@
 
 - **MAC Spoofing** - changes your MAC address.  Benefit is CAM table uses most recent address.
 - Port security can slow this down, but doesn't always stop it
-- MAC Spoofing makes the switch send  all packets to your address instead of the intended one until the CAM table is updated with the real address again
+- MAC Spoofing makes the switch send all packets to your address instead of the intended one until the CAM table is updated with the real address again
 - **IRDP Spoofing** - hacker sends ICMP Router Discovery Protocol messages advertising a malicious gateway
 - **DNS Poisoning** - changes where machines get their DNS info from, allowing attacker to redirect to malicious websites
 
@@ -137,7 +137,7 @@
 - **Wireshark**
   - Previously known as Ethereal
   - Can be used to follow streams of data
-  - Can also filter the  packets so you can find  a specific type or specific source address
+  - Can also filter the packets so you can find a specific type or specific source address
   - **Example filters**
     - ! (arp or icmp or dns) - filters out the "noise" from ARP, DNS and ICMP requests
     - http.request - displays HTTP GET requests
@@ -163,12 +163,12 @@
 ### <u>Devices To Evade</u>
 
 - **Intrusion Detection System** (IDS) - hardware or software devices that examine streams of packets for malicious behavior
-  - **Signature based** - compares packets  against a list of known traffic patterns
+  - **Signature based** - compares packets against a list of known traffic patterns
   - **Anomaly based** - makes decisions on alerts based on learned behavior and "normal" patterns
   - **False negative** - case where traffic was malicious, but the IDS did not pick it up
   - **HIDS** (Host-based intrusion detection system) - IDS that is host-based
   - **NIDS** (Network-based intrusion detection system) - IDS that scans network traffic
-- **Snort** - a  widely deployed IDS that is open source
+- **Snort** - a widely deployed IDS that is open source
   - Includes a sniffer, traffic logger and a protocol analyzer
   - Runs in three different modes
     - **Sniffer** - watches packets in real time
@@ -209,7 +209,7 @@
 
 ### <u>Firewall Evasion</u>
 
-- ICMP Type 3 Code 13 will show that  traffic is being blocked by firewall
+- ICMP Type 3 Code 13 will show that traffic is being blocked by firewall
 - ICMP Type 3 Code 3 tells you the client itself has the port closed
 - Firewall type can be discerned by banner grabbing
 - **Firewalking** - going through every port on a firewall to determine what is open

@@ -44,7 +44,7 @@
     - WebCopier Pro
     - Web Ripper
     - SurfOffline
-- **Vulnerability  Scanning**  - scans web server  for vulnerabilities
+- **Vulnerability Scanning** - scans web server for vulnerabilities
   - **Tools**
     - Nessus
     - Nikto - specifically suited for web servers; still very noisy like Nessus
@@ -57,7 +57,7 @@
 - Apache runs configurations as a part of a module within special files (http.conf, etc.)
 - IIS runs all applications in the context of LOCAL_SYSTEM
 - IIS 5 had a ton of bugs - easy to get into
-- **N-Tier  Architecture** - distributes processes across multiple servers; normally  as three-tier: Presentation (web), logic (application) and data (database)
+- **N-Tier Architecture** - distributes processes across multiple servers; normally as three-tier: Presentation (web), logic (application) and data (database)
 - **Error Reporting** - should not be showing errors in production; easy to glean information
 - **HTML** - markup language used to display web pages
 - **HTTP Request Methods**
@@ -65,7 +65,7 @@
   - **HEAD** - identical to get except for no body return
   - **POST** - sends data via body - data not shown in URL or in history
   - **PUT** - requests data be stored at the URL
-  - **DELETE** - requests origin server  delete resource
+  - **DELETE** - requests origin server delete resource
   - **TRACE** - requests application layer loopback of message
   - **CONNECT** - reserved for use with proxy
   - Both POST and GET can be manipulated by a web proxy
@@ -80,7 +80,7 @@
 
 - **DNS Amplification** - uses recursive DNS to DoS a target; amplifies DNS answers to target until it can't do anything
 - **Directory Transversal** (../ or dot-dot-slash) - requests file that should not be accessible from web server
-  - Example:  http://www.example.com/../../../../etc/password
+  - Example: http://www.example.com/../../../../etc/password
   - Can use Unicode to possibly evade IDS - %2e for dot and %sf for slash
 - **Parameter Tampering** (URL Tampering) - manipulating parameters within URL to achieve escalation or other changes
 - **Hidden Field Tampering** - modifying hidden form fields producing unintended results
@@ -125,12 +125,12 @@
   - Can also be passed via URL (http://IPADDRESS/";!--"<XSS>=&{()}
   - Can be malicious by accessing cookies and sending them to a remote host
   - Can be mitigated by setting **HttpOnly** flag for cookies
-  - **Stored XSS** (Persistent or Type-I) - stores the XSS in  a forum or like for multiple people to access
+  - **Stored XSS** (Persistent or Type-I) - stores the XSS in a forum or like for multiple people to access
 - **Cross-Site Request Forgery** (CSRF) - forces an end user to execute unwanted actions on an app they're already authenticated on
   - Inherits  identity and privileges of victim to perform an undesired function on victim's behalf
   - Captures the session and sends a request based off the logged in user's credentials
   - Can be mitigated by sending **random challenge tokens**
-- **Session Fixation** - attacker logs into a legitimate site and pulls a session ID; sends link with session ID to victim.  Once victim  logs in, attacker can now log in and run with user's credentials
+- **Session Fixation** - attacker logs into a legitimate site and pulls a session ID; sends link with session ID to victim.  Once victim logs in, attacker can now log in and run with user's credentials
 - **Cookies** - small text-based files stored that contains information like preferences, session details or shopping cart contents
   - Can be manipulated to change functionality (e.g. changing a cooking that says "ADMIN=no" to "yes")
   - Sometimes, but rarely, can also contain passwords
@@ -155,7 +155,7 @@
     - SQLExec
     - Absinthe
     - BobCat
-- **HTTP Response Splitting**  - adds header response data to an input field so server splits the response
+- **HTTP Response Splitting** - adds header response data to an input field so server splits the response
   - Can be used to redirect a user to a malicious site
   - Is not an attack in and of itself - must be combined with another attack
 - **Countermeasures** - input scrubbing for injection, SQL parameterization for SQL injection, keeping patched servers, turning off unnecessary services, ports and protocols
