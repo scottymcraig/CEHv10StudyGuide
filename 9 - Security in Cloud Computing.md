@@ -31,7 +31,7 @@
 ### <u>Cloud Security</u>
 
 - Problem with cloud security is what you are allowed to test and what should you test
-- Another concern is  with a hypervisor, if the hypervisor is compromised, all hosts on that hypervisor are as well
+- Another concern is with a hypervisor, if the hypervisor is compromised, all hosts on that hypervisor are as well
 - **Trusted Computing Model** - attempts to resolve computer security problems through hardware enhancements
   - **Roots of Trust** (RoT) - set of functions within TCM that are always trusted by the OS
 - **Tools**
@@ -48,12 +48,12 @@
 - **Shadow IT** - IT systems or solutions that are developed to handle an issue but aren't taken through proper approval chain
 - **Abuse of Cloud Resources** -  another high threat (usually applies to Iaas and PaaS)
 - **Insecure Interfaces and APIs** - cloud services can't function without them, but need to make sure they are secure
-- **Service Oriented Architecture** - API  that makes it easier for application components to cooperate and exchange information
+- **Service Oriented Architecture** - API that makes it easier for application components to cooperate and exchange information
 - Insufficient due diligence - moving an application without knowing the security differences
 - Shared technology issues - multitenant environments that don't provide proper isolation
 - Unknown risk profiles - subscribers simply don't know what security provisions are made int he background
 - Others include malicious insiders, inadequate design and DDoS
 - **Wrapping Attack** - SOAP message intercepted and data in envelope is changed and sent/replayed
-- **Session riding** - CSRF under a diferent name; deals with cloud services instead of traditional data centers
-- **Side Channel Attack** - using  an existing VM on the same physical host to attack another
+- **Session riding** - CSRF under a different name; deals with cloud services instead of traditional data centers
+- **Side Channel Attack** - using an existing VM on the same physical host to attack another
   - This is more broadly defined as using something other than the direct interface to attack a system

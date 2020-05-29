@@ -113,7 +113,7 @@
     4. Analyze captured packets
   - **Tools**
   	- **Aircrack-ng** - sniffer, detector, traffic analysis tool and a password cracker
-  	  - Uses dictionary attacks for WPA and WPA 2.  Other attacks are  for WEP only
+  	  - Uses dictionary attacks for WPA and WPA 2.  Other attacks are for WEP only
 	- **Cain and Abel** - sniffs packets and cracks passwords (may take longer)
       - Relies on statistical measures and the PTW technique to break WEP
 	- **KisMAC** - MacOS tool to brute force WEP or WPA passwords

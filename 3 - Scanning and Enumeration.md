@@ -143,7 +143,7 @@
   - nmap -sA (ACK scan)
   - nmap -sW (Window scan)
 - **IDLE Scan** - uses a third party to check if a port is open
-  - Looks at the IPID to see if there is a repsonse
+  - Looks at the IPID to see if there is a response
   - Only works if third party isn't transmitting data
   - Sends a request to the third party to check IPID id; then sends a spoofed packet to the target with a return of the third party; sends a request to the third party again to check if IPID increased.
     - IPID increase of 1 indicates port closed

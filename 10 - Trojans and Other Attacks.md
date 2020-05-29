@@ -18,7 +18,7 @@
 ### <u>Trojans</u>
 
 - **Trojans** - software that appears to perform a desirable function but instead performs malicious activity
-  - To hackers, it is a method to  gain and maintain access to a system
+  - To hackers, it is a method to gain and maintain access to a system
   - Trojans are means of delivery whereas a backdoor provides the open access
 - **Types**
   - **Defacement trojan**
@@ -80,7 +80,7 @@
 
 ### <u>Viruses and Worms</u>
 
-- **Virus** - self-replicating program that  reproduces by attaching copies of itself into other executable code
+- **Virus** - self-replicating program that reproduces by attaching copies of itself into other executable code
   - Usually installed by user clicking on malicious file attachments or downloads
   - **Fake Antivirus** - tries to convince a user has a virus and have them download an AV that is a virus itself
 - **Ransomware** - malicious software designed to deny access to a computer until a price is paid; usually spread through email
@@ -98,7 +98,7 @@
   - **Macro Virus** - written in VBA; infects template files - mostly Word and Excel
   - **Polymorphic Code Virus** - mutates its code by using a polymorphic engine; difficult to find because code is always changing
   - **Encryption Virus** - uses  encryption to hide the code from antivirus
-  - **Metamorphic Virus** - rewrites itself everytime it infects a new  file
+  - **Metamorphic Virus** - rewrites itself every time it infects a new file
   - **Stealth Virus** - known as a tunneling virus; attempts to evade AVs by intercepting their requests and returning them instead of letting them pass to the OS
   - **Cavity Virus** - overwrite portions of host files as to not increase the actual size of the file; uses null content sections
   - **Sparse Infector Virus** - only infects occasionally (e.g. every 10th time)
@@ -108,7 +108,7 @@
   - PoisonVirus Maker
   - Sam's Virus Generator
   - JPS Virus Maker
-- **Worm**  - self-replicating malware that sends itself to other computers without human intervention
+- **Worm** - self-replicating malware that sends itself to other computers without human intervention
   - Usually doesn't infect files - just resides in active memory
   - Often used in botnets
 - **Ghost Eye Worm** - hacking tool that uses random messaging on Facebook and other sites to perform a host of malicious efforts
@@ -170,7 +170,7 @@
 - Can be done via brute force, calculation or stealing
 - Predicting can be done by knowing the window size and the packet sequence number
 - Sequence numbers increment on **acknowledgement**
-  - For example, an acknowledgement of 105 with a  window of 200 means you could expect sequence numbering from 105 to 305
+  - For example, an acknowledgement of 105 with a window of 200 means you could expect sequence numbering from 105 to 305
 - **Tools**
   - **Ettercap** - man-in-the-middel tool and packet sniffer on steroids
   - **Hunt** - sniff, hijack and reset connections
@@ -188,7 +188,7 @@
   - Regenerating the session key after authentication
   - Use IPSec to encrypt
 - **IPSec**
-  - **Transport Mode** - payload and ESP trailer are encrypted;  IP header is not
+  - **Transport Mode** - payload and ESP trailer are encrypted; IP header is not
   - **Tunnel mode** - everything is encrypted; cannot be used with NAT
   - **Architecture Protocols**
     - **Authentication Header** - guarantees the integrity and authentication of IP packet sender
