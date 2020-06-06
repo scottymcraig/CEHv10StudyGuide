@@ -133,6 +133,12 @@
 **Other Tools**
 
 - **OSRFramework** - uses open source intelligence to get information about target
+  - **usufy.py** - verifies if a username/profile exists in up to 306 different platforms
+  - **mailfy.py** - checks if a username(e-mail) has been registered in up to 22 e-mail providers
+  - **searchfy.py** - looks for profile using full names and other info in 7 platforms. Queries the OSRFramework platforms itself
+  - **domainfy.py** - verifies the existence of a given domain in up to 1567 different registries
+  - **phonefy.py** - checks the existence of phone numbers
+  - **entify.py** - looks for regular expressions
 - **Web Spiders** - obtain information from the website such as pages, etc.
 - **Social Engineering Tools**
   - Maltego
