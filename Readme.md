@@ -4,23 +4,23 @@ Created based off information found in [CEH Certified Ethical Hacker All-in-One 
 
 ## Table of Contents
 
-[1 - Essential Knowledge](1 - Essential Knowledge.md)
+[01 - Essential Knowledge](1 - Essential Knowledge.md)
 
-[2 - Reconnaissance](2 - Reconnaissance.md)
+[02 - Reconnaissance](2 - Reconnaissance.md)
 
-[3 - Scanning and Enumeration](3 - Scanning and Enumeration.md)
+[03 - Scanning and Enumeration](3 - Scanning and Enumeration.md)
 
-[4 - Sniffing and Evasion](4 - Sniffing and Evasion.md)
+[04 - Sniffing and Evasion](4 - Sniffing and Evasion.md)
 
-[5 - Attacking a System](5 - Attacking a System.md)
+[05 - Attacking a System](5 - Attacking a System.md)
 
-[6 - Web-Based Hacking - Servers and Applications](6 - Web-Based Hacking - Servers and Applications.md)
+[06 - Web-Based Hacking - Servers and Applications](6 - Web-Based Hacking - Servers and Applications.md)
 
-[7 - Wireless Network Hacking](7 - Wireless Network Hacking.md)
+[07 - Wireless Network Hacking](7 - Wireless Network Hacking.md)
 
-[8 - Mobile Communications and IoT](8 - Mobile Communications and IoT.md)
+[08 - Mobile Communications and IoT](8 - Mobile Communications and IoT.md)
 
-[9 - Security in Cloud Computing](9 - Security in Cloud Computing.md)
+[09 - Security in Cloud Computing](9 - Security in Cloud Computing.md)
 
 [10 - Trojans and Other Attacks](10 - Trojans and Other Attacks.md)
 
