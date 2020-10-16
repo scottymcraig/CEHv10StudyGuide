@@ -4,7 +4,7 @@
 
 - **Cryptography** - science or study of protecting information whether in transit or at rest
   - Renders the information unusable to anyone who can't decrypt it
-  - Takes plain text, applies cryptographic method, turn it into cipher text
+  - Takes plain text, applies cryptographic method, turns it into cipher text
 - **Cryptanalysis** - study and methods used to crack cipher text
 - **Linear Cryptanalysis** - works best on block ciphers
 - **Differential Cryptanalysis** - applies to symmetric key algorithms
@@ -20,7 +20,7 @@
   - **Substitution** - bits are replaced by other bits
   - **Transposition** - doesn't replace;  simply changes order
 - **Encryption Algorithms** - mathematical formulas used to encrypt and decrypt data
-- **Steam Cipher** - readable bits are encrypted one at a time in a continuous stream
+- **Stream Cipher** - readable bits are encrypted one at a time in a continuous stream
   - Usually done by an XOR operation
   - Work at a high rate of speed
 - **Block Cipher** - data bits are split up into blocks and fed into the cipher
@@ -108,7 +108,7 @@
 - **Certificate Revocation List** (CRL) - used to track which certificates have problems and which have been revoked
 - **Validation Authority** - used to validate certificates via Online Certificate Status Protocol (OCSP)
 - **Trust Model** - how entities within an enterprise deal with keys, signatures and certificates
-- **Cross-Certification** - allows a CA to trust another CS in a completely different PKI; allows both CAs to validate certificates from either side
+- **Cross-Certification** - allows a CA to trust another CA in a completely different PKI; allows both CAs to validate certificates from either side
 - **Single-authority system** - CA at the top
 - **Hierarchical trust system** - CA at the top (root CA); makes use of one or more RAs (subordinate CAs) underneath it to issue and manage certificates
 
