@@ -56,7 +56,7 @@
 | Silencer, WebEx    | 1001   |
 | RAT                | 1095-98|
 | SubSeven           | 1243   |
-| Shiva-Burka        | 1600   |
+| Shivka-Burka       | 1600   |
 | Trojan Cow         | 2001   |
 | Deep Throat        | 6670-71|
 | Tini               | 7777   |
